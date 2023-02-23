@@ -60,7 +60,7 @@ div.transition{
     transition: width 2s, height 4s;
 }
 
-div:hover{
+.transition:hover{
     width: 300px;
     height: 100px;
 }

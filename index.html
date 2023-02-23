@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        CSS Assignment 2
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1> This is CSS Assignment 2</h1>
+        <h2> Demo specifying the difference between rem,em,vh,vw,px.</h2>
+        <p class="rem1">This line shows text in rem </p>
+        <p class="em1">This line shows text in em</p>
+        <p class="vh1">This line shows text in vh</p>
+        <p class="vw1">This line shows text in vw</p>
+        <p class="px1">This line shows text in px</p>
+
+
+        <h2>Applying different combinators</h2>    
+
+    <div class="descendant">
+        <p>This is for Descendant selector</p>
+        <p>The descendant selector matched all elements that are descendants of a specified element.</p>
+        <span>This is a span column so styling is not applied on it.</span>
+    </div>
+    <hr>
+    <div class="child">
+        <p>This is for child selector</p>
+        <p>The child selector selects all elements that are the children of a specified element.</p>
+        <span>This is a span column so styling is not applied on it.</span>
+    </div>
+    <hr>
+    <div class="adjacent">
+        <p>This is for adjacent sibling selector</p>
+        <p>The adjacent sibling selector selects all elements that are the adjacent siblings of a specified element.</p>
+        <span>This is a span column so styling is not applied on it.</span>
+
+    </div>
+
+    <p>This is a paragraph which is just outside the division so the styling is applied on it.</p>
+    <span>But this is not immediately followed.</span>  
+    <hr>
+    <div class="general">
+        <p>This is for General sibling selector</p>
+        <p>The general sibling selector selects all elements that are the adjacent siblingsof a specified element</p>
+    </div>
+
+    <p>This is the paragraph which is outside the division.</p>
+    <p>Same with this!</p>
+    <p>So they all are the siblings of division and should have the styling.</p>
+    <hr>
+
+    <h2> Demo for CSS transition and transform.</h2>
+
+    <img src="logo.png" alt="logo">
+    <span class="transform">Sample for transform</span>
+    <hr>
+    
+    <div class="transition">Demo for transition</div>
+</body>    
+</html>

@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+p.rem1{
+    background-color: red;
+    font-size: 5rem;
+}
+
+p.em1{
+    background-color: purple;
+    font-size: 5em;
+}
+
+p.vh1{
+    background-color: green;
+    font-size: 5vh;
+}
+
+p.vw1{
+    background-color: violet;
+    font-size: 5vw;
+}
+
+p.px1{
+    background-color: aquamarine;
+    font-size: 5px;
+}
+
+h2{
+    text-align: center;
+}
+
+.descendant p{
+    background-color: beige;
+}
+
+.child>p{
+    background-color: greenyellow;
+}
+
+.adjacent+p{
+    background-color: pink;
+}
+
+.general~p{
+    background-color: aqua;
+}
+
+img:hover{
+    transform: rotateX(50deg);
+
+}
+
+div.transition{
+    width: 200px;
+    height: 150px;
+    color: white;
+    background: black;
+    text-align: center;
+    transition: width 2s, height 4s;
+}
+
+div:hover{
+    width: 300px;
+    height: 100px;
+}
